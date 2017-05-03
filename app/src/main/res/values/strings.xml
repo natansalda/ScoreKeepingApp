@@ -5,4 +5,8 @@
     <string name="goal">Goal!</string>
     <string name="foul">Foul</string>
     <string name="reset">New Match</string>
+    <string name="scoreA">0</string>
+    <string name="foulsA">0</string>
+    <string name="scoreB">0</string>
+    <string name="foulsB">0</string>
 </resources>

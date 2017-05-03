@@ -6,4 +6,38 @@
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#03CEA4</item>
     </style>
+    <style name="CustomButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextViewScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">#345995</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <style name="TextViewFoul">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">#FB4D3D</item>
+        <item name="android:textSize">40sp</item>
+    </style>
 </resources>

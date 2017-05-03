@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         scoreViewBF.setText(String.valueOf(score));
     }
 
-    public void Reset(View v) {
+    public void resetScore(View v) {
         scoreTeamA = 0;
         scoreTeamB = 0;
         foulTeamA = 0;

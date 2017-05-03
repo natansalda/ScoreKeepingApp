@@ -18,52 +18,28 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:text="@string/teamA"
-                android:textColor="#000000"
-                android:textSize="20dp" />
+                style="@style/TextViewStyle"
+                android:text="@string/teamA" />
 
             <TextView
                 android:id="@+id/team_a_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:text="0"
-                android:textColor="#345995"
-                android:textSize="56dp" />
+                style="@style/TextViewScore"
+                android:text="@string/scoreA" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@drawable/button"
+                style="@style/CustomButtonStyle"
                 android:onClick="addGoalForTeamA"
-                android:text="@string/goal"
-                android:textColor="#000000" />
+                android:text="@string/goal" />
 
             <TextView
                 android:id="@+id/team_a_fouls"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:text="0"
-                android:textColor="#FB4D3D"
-                android:textSize="40dp" />
+                style="@style/TextViewFoul"
+                android:text="@string/foulsA" />
 
             <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@drawable/button"
+                style="@style/CustomButtonStyle"
                 android:onClick="addFoulForTeamA"
-                android:text="@string/foul"
-                android:textColor="#000000" />
+                android:text="@string/foul" />
 
         </LinearLayout>
 
@@ -83,63 +59,36 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:text="@string/teamB"
-                android:textColor="#000000"
-                android:textSize="20dp" />
+                style="@style/TextViewStyle"
+                android:text="@string/teamB" />
 
             <TextView
                 android:id="@+id/team_b_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:text="0"
-                android:textColor="#345995"
-                android:textSize="56dp" />
+                style="@style/TextViewScore"
+                android:text="@string/scoreB" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@drawable/button"
+                style="@style/CustomButtonStyle"
                 android:onClick="addGoalForTeamB"
-                android:text="@string/goal"
-                android:textColor="#000000" />
+                android:text="@string/goal" />
 
             <TextView
                 android:id="@+id/team_b_fouls"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:text="0"
-                android:textColor="#FB4D3D"
-                android:textSize="40dp" />
+                style="@style/TextViewFoul"
+                android:text="@string/foulsB" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@drawable/button"
+                style="@style/CustomButtonStyle"
                 android:onClick="addFoulForTeamB"
-                android:text="@string/foul"
-                android:textColor="#000000" />
+                android:text="@string/foul" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:background="@drawable/button"
-        android:onClick="Reset"
-        android:text="@string/reset"
-        android:textColor="#000000" />
+        style="@style/CustomButtonStyle"
+        android:onClick="resetScore"
+        android:text="@string/reset" />
 
 </LinearLayout>
